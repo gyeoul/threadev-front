@@ -1,10 +1,10 @@
-import type UserProfile from '@/entity/user/UserProfile'
+import type UserProfile from '../entity/user/UserProfile'
 import { instanceToPlain } from 'class-transformer'
 import { inject, singleton } from 'tsyringe'
-import HttpRepository from '@/repository/HttpRepository'
+import HttpRepository from '../repository/HttpRepository'
 import { type Ref, ref, type UnwrapRef } from 'vue'
 import { useProfileStore } from '@/stores/profile'
-import type Profile from '@/entity/user/Profile'
+import type Profile from '../entity/user/Profile'
 import type {
   _ExtractActionsFromSetupStore,
   _ExtractGettersFromSetupStore,

@@ -3,9 +3,9 @@ import { reactive, ref } from 'vue'
 
 import { container } from 'tsyringe'
 import { ElMessage } from 'element-plus'
-import type HttpError from '@/http/HttpError'
-import PostRepository from '@/repository/PostRepository'
-import PostWrite from '@/entity/post/PostWrite'
+import type HttpError from '../http/HttpError'
+import PostRepository from '../repository/PostRepository'
+import PostWrite from '../entity/post/PostWrite'
 import '@toast-ui/editor/dist/toastui-editor.css'
 
 

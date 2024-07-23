@@ -1,8 +1,8 @@
-import HttpRepository from '@/repository/HttpRepository'
-import type Login from '@/entity/user/Login'
-import type SignUp from '@/entity/user/SignUp'
+import HttpRepository from '../repository/HttpRepository'
+import type Login from '../entity/user/Login'
+import type SignUp from '../entity/user/SignUp'
 import { inject, singleton } from 'tsyringe'
-import UserProfile from '@/entity/user/UserProfile'
+import UserProfile from '../entity/user/UserProfile'
 
 @singleton()
 export default class UserRepository {

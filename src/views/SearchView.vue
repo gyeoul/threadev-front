@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { container } from 'tsyringe'
-import ProfileRepository from '@/repository/ProfileRepository'
-import SearchRepository from '@/repository/SearchRepository'
-import type PostPreview from '@/entity/post/PostPreview'
+import ProfileRepository from '../repository/ProfileRepository'
+import SearchRepository from '../repository/SearchRepository'
+import type PostPreview from '../entity/post/PostPreview'
 
 const SEARCH_REPOSITORY = container.resolve(SearchRepository)
 const input = ref('')

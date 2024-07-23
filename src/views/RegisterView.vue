@@ -43,10 +43,10 @@ import { reactive, ref } from 'vue'
 import { type ComponentSize, ElMessage, type FormInstance, type FormRules } from 'element-plus'
 import { AtSymbolIcon } from '@heroicons/vue/24/outline'
 import { container } from 'tsyringe'
-import UserRepository from '@/repository/UserRepository'
-import type HttpError from '@/http/HttpError'
-import router from '@/router'
-import type SignUp from '@/entity/user/SignUp'
+import UserRepository from '../repository/UserRepository'
+import type HttpError from '../http/HttpError'
+import router from '../router'
+import type SignUp from '../entity/user/SignUp'
 
 const USER_REPOSITORY = container.resolve(UserRepository)
 

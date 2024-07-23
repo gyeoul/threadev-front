@@ -3,7 +3,7 @@ import axios, {
   type AxiosInstance,
   type AxiosResponse
 } from 'axios'
-import HttpError from '@/http/HttpError'
+import HttpError from '../http/HttpError'
 import { singleton } from 'tsyringe'
 
 export type HttpRequestConfig = {

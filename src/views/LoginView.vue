@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { onBeforeMount, reactive } from 'vue'
-import Login from '@/entity/user/Login'
+import Login from '../entity/user/Login'
 import { ElMessage } from 'element-plus'
 import { useRouter } from 'vue-router'
-import type HttpError from '@/http/HttpError'
-import UserRepository from '@/repository/UserRepository'
+import type HttpError from '../http/HttpError'
+import UserRepository from '../repository/UserRepository'
 import { container } from 'tsyringe'
-import router from '@/router'
-import { useProfileStore } from '@/stores/profile'
-import ProfileRepository from '@/repository/ProfileRepository'
+import router from '../router'
+import { useProfileStore } from '../stores/profile'
+import ProfileRepository from '../repository/ProfileRepository'
 
 const state = reactive({
   login: new Login()

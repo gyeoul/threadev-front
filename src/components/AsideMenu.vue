@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { onBeforeMount, onBeforeUpdate, onUnmounted, reactive, ref } from 'vue'
-import UserRepository from '@/repository/UserRepository'
+import { onUnmounted } from 'vue'
+import UserRepository from '../repository/UserRepository'
 import { container } from 'tsyringe'
-import ProfileRepository from '@/repository/ProfileRepository'
-import type UserProfile from '@/entity/user/UserProfile'
+import ProfileRepository from '../repository/ProfileRepository'
 import {
   ArrowRightEndOnRectangleIcon,
   ArrowRightStartOnRectangleIcon,
@@ -12,7 +11,7 @@ import {
   MagnifyingGlassIcon,
   UserIcon
 } from '@heroicons/vue/24/outline'
-import router from '@/router'
+import router from '../router'
 import { ElMessage, ElMenuItem } from 'element-plus'
 import { useRouter } from 'vue-router'
 import { useProfileStore } from '@/stores/profile'

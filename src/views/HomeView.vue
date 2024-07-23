@@ -11,9 +11,9 @@ import {
   HeartIcon as FilledHeart
 } from '@heroicons/vue/24/solid'
 import { container } from 'tsyringe'
-import PostRepository from '@/repository/PostRepository'
-import type PostPreview from '@/entity/post/PostPreview'
-import router from '@/router'
+import PostRepository from '../repository/PostRepository'
+import type PostPreview from '../entity/post/PostPreview'
+import router from '../router'
 
 const loading = ref(false)
 const noMore = ref(false)

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 
-import type Post from '@/entity/post/Post'
+import type Post from '../entity/post/Post'
 import { useRouter } from 'vue-router'
 import { container } from 'tsyringe'
-import PostRepository from '@/repository/PostRepository'
+import PostRepository from '../repository/PostRepository'
 import { onMounted, reactive } from 'vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 
