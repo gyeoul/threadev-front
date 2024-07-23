@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { ElAffix, ElMain } from 'element-plus'
-import HeaderComponent from '../components/HeaderComponent.vue'
+import HeaderComponent from '@/components/HeaderComponent.vue'
 import { onBeforeUpdate } from 'vue'
 import AsideMenu from '@/components/AsideMenu.vue'
 
