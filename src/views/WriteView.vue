@@ -6,7 +6,6 @@ import { ElMessage } from 'element-plus'
 import type HttpError from '../http/HttpError'
 import PostRepository from '../repository/PostRepository'
 import PostWrite from '../entity/post/PostWrite'
-import '@toast-ui/editor/dist/toastui-editor.css'
 
 
 const POST_REPOSITORY = container.resolve(PostRepository)
